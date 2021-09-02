@@ -8,15 +8,18 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Fontawesome CDN -->
     <script src="https://kit.fontawesome.com/eac5f05cbf.js" crossorigin="anonymous"></script>
+    <!-- animate css link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- style css -->
         <link rel="stylesheet" href="style.css">
         <!-- Title goes here -->
     <title>BOOK LIBRARY</title>
 </head>
 <body>
     <section class="container">
-        <h1 class="text-center text-light m-5 fw-bolder">Search Your Favourite Books</h1>
+        <h1 class="text-center text-light m-5 fw-bolder animate__animated animate__fadeInLeft">Search Your Favourite Books</h1>
         <!-- book search area -->
-        <div class="input-group mb-3 w-50 mx-auto mt-5">
+        <div class="input-group mb-3 w-50 mx-auto mt-5 animate__animated  animate__fadeInRight">
             <input id="search-field" type="text" class="p-3 form-control" placeholder="Search the book that you want"
                 aria-label="Recipient's username" aria-describedby="button-addon2">
             <button onclick="searchBooks()" class="btn btn-secondary" type="button" id="button-search"><i class="fas fa-search fa-2x"></i></button>
